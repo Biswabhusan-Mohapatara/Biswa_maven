@@ -3,6 +3,10 @@
   <groupId>Biswa_maven</groupId>
   <artifactId>Biswa_maven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+<maven.compiler.source>1.6</maven.compiler.source>
+<maven.compiler.target>1.6</maven.compiler.target>
+ </properties>
   <dependencies>
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -24,5 +28,8 @@
     <artifactId>poi-ooxml</artifactId>
     <version>4.0.1</version>
 </dependency>
+
+
+ 
   </dependencies>
 </project>
